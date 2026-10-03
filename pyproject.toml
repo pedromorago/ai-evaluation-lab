@@ -1,0 +1,33 @@
+[project]
+name = "ai-evaluation-lab"
+version = "0.1.0"
+description = "Evaluating AI-generated test suites: validity on the reference implementation, mutation score, acceptance-criteria coverage and a regression gate"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Pedro Morago" }]
+dependencies = ["pytest>=8"]
+
+[project.optional-dependencies]
+api = ["anthropic>=0.40"]
+
+[project.scripts]
+aievals = "aievals.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aievals = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "sut"]
+testpaths = ["tests", "reference"]
+markers = [
+    "ac(*ids): the acceptance criteria a test checks",
+    "slow: runs the mutation analysis",
+]

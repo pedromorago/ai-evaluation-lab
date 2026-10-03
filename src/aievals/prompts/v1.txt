@@ -1,0 +1,13 @@
+Write pytest tests for this user story.
+
+{api}
+
+The story to test:
+
+{story}
+
+The other stories in the same release, for context only:
+
+{context}
+
+{rules}

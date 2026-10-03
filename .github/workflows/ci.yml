@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Tests (the evaluator, and the reference suite on the checkout code)
+        run: pytest -q
+      - name: Seeded bugs in the evaluator
+        run: |
+          python scripts/run_seeded_bugs.py | tee seeded.md
+          { echo "## Seeded bugs in the evaluator"; echo; cat seeded.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Re-evaluate the recorded runs
+        # No model is called: the generated suites are in runs/. The committed
+        # results.json files must come out the same.
+        run: |
+          aievals evaluate runs/*/
+          git diff --stat --exit-code -- runs
+          { echo "## Recorded runs"; echo; aievals report runs/*/; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Regression gate
+        run: aievals gate runs/sonnet-5.5-v2 --baseline runs/haiku-4.5-v2
+      - name: Regression gate demo (expected to fail)
+        run: |
+          set +e
+          aievals gate runs/haiku-4.5-v1 --baseline runs/haiku-4.5-v2 | tee gate.txt
+          code=${PIPESTATUS[0]}
+          set -e
+          test "$code" -eq 1
+          { echo "## Gate demo: the plain prompt against the test-design prompt (expected to fail)"; echo; echo '```'; cat gate.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

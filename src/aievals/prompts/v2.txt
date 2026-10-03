@@ -1,0 +1,21 @@
+Write pytest tests for this user story, as you would for a release.
+
+{api}
+
+The story to test:
+
+{story}
+
+The other stories in the same release, for context only:
+
+{context}
+
+How to design the tests:
+- Cover every acceptance criterion, with at least one test that would fail if that criterion were broken.
+- For every threshold or limit, test the value on each side of it and the value itself.
+- Compute every expected amount by hand, step by step, in a comment above the assertion, following the story's rules exactly. Assert exact Decimal values, not approximations.
+- Check errors with pytest.raises and the exact exception class the story names.
+- Only assert what the story states. If the story doesn't say what happens, don't test it.
+- Keep each test independent, with its own data, and give each one a name that says what it checks.
+
+{rules}

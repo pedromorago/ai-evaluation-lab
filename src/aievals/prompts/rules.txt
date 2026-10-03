@@ -1,0 +1,5 @@
+Output rules:
+- Reply with exactly one ```python code block containing a complete pytest module, and nothing else.
+- Import only from pytest, decimal, datetime and checkout.
+- Tag every test with @pytest.mark.ac("<criterion id>", ...) naming the acceptance criteria it checks, using the ids from the story (for example "S2-AC1").
+- The code never reads the clock: pass a fixed date as `today`.
