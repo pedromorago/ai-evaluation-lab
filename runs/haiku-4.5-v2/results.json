@@ -1,0 +1,7957 @@
+{
+ "aggregate": {
+  "broken_files": {
+   "max": 0,
+   "mean": 0,
+   "min": 0
+  },
+  "criteria": {
+   "max": 21,
+   "mean": 21,
+   "min": 21
+  },
+  "criteria_claimed": {
+   "max": 21,
+   "mean": 21,
+   "min": 21
+  },
+  "criteria_verified": {
+   "max": 21,
+   "mean": 21,
+   "min": 21
+  },
+  "flaky": {
+   "max": 0,
+   "mean": 0,
+   "min": 0
+  },
+  "inert": {
+   "max": 2,
+   "mean": 1.5,
+   "min": 1
+  },
+  "invalid": {
+   "max": 12,
+   "mean": 7.5,
+   "min": 3
+  },
+  "killed": {
+   "max": 78,
+   "mean": 77.5,
+   "min": 77
+  },
+  "mutants": {
+   "max": 82,
+   "mean": 82,
+   "min": 82
+  },
+  "mutation_score": {
+   "max": 0.9512,
+   "mean": 0.9451,
+   "min": 0.939
+  },
+  "no_assertion": {
+   "max": 0,
+   "mean": 0,
+   "min": 0
+  },
+  "redundant": {
+   "max": 48,
+   "mean": 46.5,
+   "min": 45
+  },
+  "skipped": {
+   "max": 0,
+   "mean": 0,
+   "min": 0
+  },
+  "tag_unconfirmed": {
+   "max": 21,
+   "mean": 20.5,
+   "min": 20
+  },
+  "tests": {
+   "max": 151,
+   "mean": 138,
+   "min": 125
+  },
+  "unsafe_files": {
+   "max": 0,
+   "mean": 0,
+   "min": 0
+  },
+  "valid": {
+   "max": 139,
+   "mean": 130.5,
+   "min": 122
+  },
+  "validity": {
+   "max": 0.976,
+   "mean": 0.9483,
+   "min": 0.9205
+  }
+ },
+ "manifest": {
+  "backend": "claude-code",
+  "created": "2026-10-03",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt": "v2",
+  "prompt_sha": "355ef0b53148",
+  "responses": {
+   "sample-1/test_s1.py": {
+    "input_tokens": 2842,
+    "output_tokens": 26857,
+    "seconds": 155.4,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-1/test_s2.py": {
+    "input_tokens": 2838,
+    "output_tokens": 21369,
+    "seconds": 119.4,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-1/test_s3.py": {
+    "input_tokens": 2838,
+    "output_tokens": 25894,
+    "seconds": 145.3,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-1/test_s4.py": {
+    "input_tokens": 2840,
+    "output_tokens": 19299,
+    "seconds": 108.7,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-1/test_s5.py": {
+    "input_tokens": 2840,
+    "output_tokens": 16673,
+    "seconds": 99.8,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-1/test_s6.py": {
+    "input_tokens": 2840,
+    "output_tokens": 29585,
+    "seconds": 183.2,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s1.py": {
+    "input_tokens": 2840,
+    "output_tokens": 22699,
+    "seconds": 136.8,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s2.py": {
+    "input_tokens": 2838,
+    "output_tokens": 21461,
+    "seconds": 114.1,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s3.py": {
+    "input_tokens": 2842,
+    "output_tokens": 23150,
+    "seconds": 126.2,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s4.py": {
+    "input_tokens": 2842,
+    "output_tokens": 23480,
+    "seconds": 140.8,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s5.py": {
+    "input_tokens": 2842,
+    "output_tokens": 22451,
+    "seconds": 130.1,
+    "served_model": "claude-haiku-4-5-20251001"
+   },
+   "sample-2/test_s6.py": {
+    "input_tokens": 2842,
+    "output_tokens": 22766,
+    "seconds": 135.0,
+    "served_model": "claude-haiku-4-5-20251001"
+   }
+  },
+  "samples": 2
+ },
+ "per_story": {
+  "S1": {
+   "mutation_score": 0.9474
+  },
+  "S2": {
+   "mutation_score": 0.9616
+  },
+  "S3": {
+   "mutation_score": 0.875
+  },
+  "S4": {
+   "mutation_score": 0.7143
+  },
+  "S5": {
+   "mutation_score": 1.0
+  },
+  "S6": {
+   "mutation_score": 0.9167
+  }
+ },
+ "run": "haiku-4.5-v2",
+ "samples": {
+  "sample-1": {
+   "broken": {},
+   "coverage": {
+    "S1-AC1": {
+     "claimed": 2,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S1-AC2": {
+     "claimed": 7,
+     "killed": 7,
+     "mutants": 8,
+     "verified": true
+    },
+    "S1-AC3": {
+     "claimed": 1,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S1-AC4": {
+     "claimed": 3,
+     "killed": 4,
+     "mutants": 5,
+     "verified": true
+    },
+    "S1-AC5": {
+     "claimed": 5,
+     "killed": 1,
+     "mutants": 1,
+     "verified": true
+    },
+    "S2-AC1": {
+     "claimed": 13,
+     "killed": 8,
+     "mutants": 8,
+     "verified": true
+    },
+    "S2-AC2": {
+     "claimed": 8,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S2-AC3": {
+     "claimed": 5,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S3-AC1": {
+     "claimed": 5,
+     "killed": 7,
+     "mutants": 7,
+     "verified": true
+    },
+    "S3-AC2": {
+     "claimed": 5,
+     "killed": 7,
+     "mutants": 7,
+     "verified": true
+    },
+    "S3-AC3": {
+     "claimed": 7,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S3-AC4": {
+     "claimed": 7,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S3-AC5": {
+     "claimed": 3,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S4-AC1": {
+     "claimed": 8,
+     "killed": 3,
+     "mutants": 4,
+     "verified": true
+    },
+    "S4-AC2": {
+     "claimed": 12,
+     "killed": 2,
+     "mutants": 3,
+     "verified": true
+    },
+    "S5-AC1": {
+     "claimed": 13,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S5-AC2": {
+     "claimed": 5,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S5-AC3": {
+     "claimed": 3,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S6-AC1": {
+     "claimed": 6,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S6-AC2": {
+     "claimed": 17,
+     "killed": 3,
+     "mutants": 4,
+     "verified": true
+    },
+    "S6-AC3": {
+     "claimed": 14,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    }
+   },
+   "files": {
+    "test_s1.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s2.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s3.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s4.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s5.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s6.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    }
+   },
+   "inert": [
+    "tests/test_s1.py::TestS1CartLines::test_quantity_100_raises_error",
+    "tests/test_s1.py::TestS1CartLines::test_quantity_very_high_raises_error"
+   ],
+   "no_assertion": [],
+   "per_story": {
+    "S1": {
+     "criteria": 5,
+     "criteria_verified": 5,
+     "mutation_score": 0.8947,
+     "tests": 59,
+     "valid": 56
+    },
+    "S2": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 1.0,
+     "tests": 16,
+     "valid": 16
+    },
+    "S3": {
+     "criteria": 5,
+     "criteria_verified": 5,
+     "mutation_score": 0.875,
+     "tests": 15,
+     "valid": 15
+    },
+    "S4": {
+     "criteria": 2,
+     "criteria_verified": 2,
+     "mutation_score": 0.7143,
+     "tests": 18,
+     "valid": 14
+    },
+    "S5": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 1.0,
+     "tests": 14,
+     "valid": 14
+    },
+    "S6": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 0.9167,
+     "tests": 29,
+     "valid": 24
+    }
+   },
+   "redundant": [
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_ignores_loyalty",
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_no_shipping_standard",
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_nothing_applied",
+    "tests/test_s1.py::TestS1CartLines::test_quantity_zero_raises_error",
+    "tests/test_s1.py::TestS1CartLines::test_single_line_cost",
+    "tests/test_s1.py::TestS2VolumeDiscount::test_books_no_discount_at_50_units",
+    "tests/test_s1.py::TestS5Shipping::test_express_shipping_never_free",
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_rounding_half_up_to_cent",
+    "tests/test_s2.py::test_books_never_get_volume_discount_at_10_units",
+    "tests/test_s2.py::test_books_never_get_volume_discount_at_50_units",
+    "tests/test_s2.py::test_merged_lines_below_10_units_no_discount",
+    "tests/test_s2.py::test_merged_lines_reach_10_units_threshold",
+    "tests/test_s2.py::test_no_volume_discount_at_9_units",
+    "tests/test_s2.py::test_volume_discount_10_percent_with_rounding",
+    "tests/test_s2.py::test_volume_discount_15_percent_with_rounding",
+    "tests/test_s2.py::test_volume_discount_at_11_units",
+    "tests/test_s2.py::test_volume_discount_exactly_10_units",
+    "tests/test_s2.py::test_volume_discount_exactly_50_units_gets_15_percent",
+    "tests/test_s2.py::test_volume_discount_with_decimal_unit_price",
+    "tests/test_s3.py::test_another_invalid_coupon_kind",
+    "tests/test_s3.py::test_coupon_after_expiry_raises_error",
+    "tests/test_s3.py::test_coupon_without_expiry_never_expires",
+    "tests/test_s3.py::test_fixed_coupon_subtracts_euros",
+    "tests/test_s3.py::test_invalid_coupon_kind_raises_error",
+    "tests/test_s3.py::test_percent_coupon_25_percent",
+    "tests/test_s3.py::test_percent_coupon_fractional_discount",
+    "tests/test_s4.py::test_empty_cart_no_loyalty_discount",
+    "tests/test_s4.py::test_loyalty_and_fixed_coupon_both_apply",
+    "tests/test_s4.py::test_loyalty_discount_rounded_half_up",
+    "tests/test_s4.py::test_loyalty_with_multiple_items_applied_to_combined_subtotal",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_costs_4_99_just_below_threshold",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_costs_4_99_on_small_order",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_free_at_threshold",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_with_multiple_items_at_threshold",
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_at_standard_free_threshold",
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_on_large_order",
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_on_small_order",
+    "tests/test_s5.py::TestS5AC3InvalidShipping::test_invalid_shipping_method_raises_cartError",
+    "tests/test_s5.py::TestS5AC3InvalidShipping::test_unknown_shipping_method_raises_cartError",
+    "tests/test_s6.py::test_applied_fixed_coupon_after_loyalty",
+    "tests/test_s6.py::test_applied_larger_percent_discount_wins",
+    "tests/test_s6.py::test_applied_no_loyalty_for_standard_tier",
+    "tests/test_s6.py::test_discount_rounded_down_below_half_cent",
+    "tests/test_s6.py::test_discount_rounded_up_at_half_cent",
+    "tests/test_s6.py::test_percent_coupon_replaces_loyalty",
+    "tests/test_s6.py::test_subtotal_is_rounded",
+    "tests/test_s6.py::test_volume_discount_threshold_above_10_units",
+    "tests/test_s6.py::test_volume_discount_threshold_at_49_units"
+   ],
+   "summary": {
+    "broken_files": 0,
+    "criteria": 21,
+    "criteria_claimed": 21,
+    "criteria_verified": 21,
+    "flaky": 0,
+    "inert": 2,
+    "invalid": 12,
+    "killed": 77,
+    "mutants": 82,
+    "mutation_score": 0.939,
+    "no_assertion": 0,
+    "redundant": 48,
+    "skipped": 0,
+    "tag_unconfirmed": 21,
+    "tests": 151,
+    "unsafe_files": 0,
+    "valid": 139,
+    "validity": 0.9205
+   },
+   "survivors": [
+    "M016",
+    "M036",
+    "M050",
+    "M070",
+    "M076"
+   ],
+   "tag_unconfirmed": [
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_ignores_coupon",
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_ignores_loyalty",
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_nothing_applied",
+    "tests/test_s1.py::TestS2VolumeDiscount::test_49_units_10_percent_not_15",
+    "tests/test_s1.py::TestS4Loyalty::test_fixed_coupon_stacks_with_loyalty",
+    "tests/test_s1.py::TestS4Loyalty::test_loyalty_larger_than_percent_coupon",
+    "tests/test_s1.py::TestS4Loyalty::test_percent_coupon_larger_than_loyalty",
+    "tests/test_s1.py::TestS5Shipping::test_standard_shipping_free_at_50",
+    "tests/test_s2.py::test_volume_discount_49_units_gets_10_percent_not_15",
+    "tests/test_s3.py::test_coupon_min_subtotal_exceeded",
+    "tests/test_s4.py::test_empty_cart_no_loyalty_discount",
+    "tests/test_s4.py::test_fixed_coupon_capped_at_remaining_after_loyalty",
+    "tests/test_s4.py::test_fixed_coupon_taken_off_after_loyalty",
+    "tests/test_s4.py::test_loyalty_and_fixed_coupon_both_apply",
+    "tests/test_s4.py::test_loyalty_larger_than_percent_coupon_loyalty_applies",
+    "tests/test_s4.py::test_percent_coupon_larger_than_loyalty_coupon_applies",
+    "tests/test_s4.py::test_standard_customer_percent_coupon_no_loyalty",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_free_above_threshold",
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_threshold_after_loyalty_discount",
+    "tests/test_s6.py::test_applied_empty_when_no_discounts",
+    "tests/test_s6.py::test_applied_no_loyalty_for_standard_tier"
+   ],
+   "tests": {
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_all_amounts_zero": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_ignores_coupon": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_ignores_loyalty": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_no_shipping_standard": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_empty_cart_nothing_applied": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_lines_with_same_sku_merged": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_merged_quantity_100_raises_error": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M035",
+      "M037",
+      "M071"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_merged_quantity_at_limit": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('2145.83') == Decimal('2524.50') +  where Decimal('2145.83') = Quote(subtotal=Decimal('2145.83'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('450.62'), total=Decimal('2596.45'), applied=('volume:EL-002',)).subtotal",
+     "status": "invalid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_merged_quantity_well_above_100_raises_error": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M035",
+      "M037"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_100_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_bool_true_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M029",
+      "M030"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_fraction_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M029",
+      "M030",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_maximum_valid": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('2145.83') == Decimal('2524.50') +  where Decimal('2145.83') = Quote(subtotal=Decimal('2145.83'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('450.62'), total=Decimal('2596.45'), applied=('volume:EL-002',)).subtotal",
+     "status": "invalid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_minimum_valid": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_negative_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M031",
+      "M032"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_very_high_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_quantity_zero_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M031",
+      "M032"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_single_line_cost": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_subtotal_sums_lines": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS1CartLines::test_unknown_sku_raises_error": {
+     "ac": [
+      "S1-AC3"
+     ],
+     "kills": [
+      "M033",
+      "M034"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_10_units_10_percent_off": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_49_units_10_percent_not_15": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_50_units_15_percent_off": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_9_units_no_discount": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_books_no_discount_at_10_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_books_no_discount_at_50_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS2VolumeDiscount::test_volume_discount_per_product": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_coupon_invalid_day_after_expiry": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M008",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_coupon_no_expiry_date": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_coupon_valid_on_expiry_date": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M044",
+      "M051",
+      "M052",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_fixed_coupon_euros_off": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_fixed_coupon_never_negative": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_invalid_coupon_kind_raises_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_minimum_subtotal_below_raises_error": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M007",
+      "M010",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_minimum_subtotal_equal_applies": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M009",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_minimum_subtotal_just_below_raises_error": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M007",
+      "M010",
+      "M011",
+      "M013",
+      "M014",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_minimum_subtotal_met": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M009",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M051",
+      "M052",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_percent_coupon_50_percent": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M075",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS3Coupons::test_percent_coupon_applies_discount": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_fixed_coupon_stacks_with_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M049",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M074",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_gold_tier_5_percent_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_loyalty_larger_than_percent_coupon": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_percent_coupon_equals_loyalty_coupon_wins": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M020",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M053",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M085",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_percent_coupon_larger_than_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS4Loyalty::test_standard_tier_no_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_express_shipping_cost": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_express_shipping_never_free": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_invalid_shipping_method_raises_error": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_standard_shipping_cost": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_standard_shipping_exactly_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M060",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_standard_shipping_free_at_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M045",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS5Shipping::test_standard_shipping_just_below_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M014",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_applied_loyalty_before_fixed_coupon": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_applied_percent_coupon_when_wins": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M086"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_applied_volume_discounts_in_order": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M072",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_rounding_half_up_to_cent": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M075",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_total_formula_exact": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M005",
+      "M007",
+      "M011",
+      "M015",
+      "M025",
+      "M027",
+      "M028",
+      "M033",
+      "M035",
+      "M043",
+      "M062",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_vat_21_percent_of_goods_and_shipping": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::TestS6TaxRoundingQuote::test_vat_with_discounted_goods": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('48.20') == Decimal('49.24') +  where Decimal('48.20') = Quote(subtotal=Decimal('229.50'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('48.20'), total=Decimal('277.70'), applied=('volume:EL-002',)).tax",
+     "status": "invalid"
+    },
+    "tests/test_s2.py::test_books_never_get_volume_discount_at_10_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_books_never_get_volume_discount_at_50_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_general_category_gets_discount_but_books_do_not": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M041",
+      "M042",
+      "M045",
+      "M046",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_merged_lines_below_10_units_no_discount": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_merged_lines_reach_10_units_threshold": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_multiple_products_different_discount_tiers": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_no_volume_discount_at_9_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M046",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_10_percent_with_rounding": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_15_percent_with_rounding": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_49_units_gets_10_percent_not_15": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_51_units_gets_15_percent": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M040",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_at_11_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_exactly_10_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_exactly_50_units_gets_15_percent": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_with_decimal_unit_price": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discounts_in_applied_list_follow_cart_order": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_another_invalid_coupon_kind": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_after_expiry_raises_error": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M008",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_before_expiry_is_valid": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M033",
+      "M035",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_min_subtotal_exactly_met": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M009",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_min_subtotal_exceeded": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_min_subtotal_not_met": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M007",
+      "M010",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_on_expiry_date_is_valid": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M033",
+      "M035",
+      "M044",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_without_expiry_never_expires": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_never_goes_below_zero": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_partial_offset": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_subtracts_euros": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_invalid_coupon_kind_raises_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_10_percent": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_25_percent": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_fractional_discount": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_default_customer_is_standard_tier_no_loyalty": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_empty_cart_no_loyalty_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M011"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_capped_at_remaining_after_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M077",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_taken_off_after_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_gold_customer_receives_5_percent_loyalty_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_after_volume_vs_percent_coupon_coupon_larger": {
+     "ac": [
+      "S4-AC1",
+      "S4-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('9.00') == Decimal('19.00') +  where Decimal('9.00') = Quote(subtotal=Decimal('90.00'), discount=Decimal('9.00'), shipping=Decimal('0.00'), tax=Decimal('17.01'), total=Decimal('98.01'), applied=('volume:ITEM', 'coupon:GOOD')).discount",
+     "status": "invalid"
+    },
+    "tests/test_s4.py::test_loyalty_after_volume_vs_percent_coupon_loyalty_larger": {
+     "ac": [
+      "S4-AC1",
+      "S4-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('4.50') == Decimal('14.50') +  where Decimal('4.50') = Quote(subtotal=Decimal('90.00'), discount=Decimal('4.50'), shipping=Decimal('0.00'), tax=Decimal('17.96'), total=Decimal('103.46'), applied=('volume:ITEM', 'loyalty')).discount",
+     "status": "invalid"
+    },
+    "tests/test_s4.py::test_loyalty_after_volume_with_fixed_coupon": {
+     "ac": [
+      "S4-AC1",
+      "S4-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('9.50') == Decimal('19.50') +  where Decimal('9.50') = Quote(subtotal=Decimal('90.00'), discount=Decimal('9.50'), shipping=Decimal('0.00'), tax=Decimal('16.91'), total=Decimal('97.41'), applied=('volume:ITEM', 'loyalty', 'coupon:FIXED-5')).discount",
+     "status": "invalid"
+    },
+    "tests/test_s4.py::test_loyalty_and_fixed_coupon_both_apply": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_and_percent_coupon_equal_coupon_wins": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M020",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_applied_to_subtotal_after_volume_discounts": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('4.50') == Decimal('14.50') +  where Decimal('4.50') = Quote(subtotal=Decimal('90.00'), discount=Decimal('4.50'), shipping=Decimal('0.00'), tax=Decimal('17.96'), total=Decimal('103.46'), applied=('volume:BULK', 'loyalty')).discount",
+     "status": "invalid"
+    },
+    "tests/test_s4.py::test_loyalty_discount_rounded_half_up": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_larger_than_percent_coupon_loyalty_applies": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_with_multiple_items_applied_to_combined_subtotal": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_percent_coupon_larger_than_loyalty_coupon_applies": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_standard_customer_fixed_coupon_no_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M020",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M054",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_standard_customer_percent_coupon_no_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_standard_customer_receives_no_loyalty_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_charged_when_percent_coupon_below_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M025",
+      "M026",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084",
+      "M086"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_charged_with_volume_discount_below_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M041",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M079"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_costs_4_99_just_below_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M014",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_costs_4_99_on_small_order": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_free_above_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_free_at_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M060",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_threshold_after_fixed_coupon": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M015",
+      "M019",
+      "M026",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M058",
+      "M060",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_threshold_after_loyalty_discount": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC1StandardShipping::test_standard_shipping_with_multiple_items_at_threshold": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M060",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_at_standard_free_threshold": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_on_large_order": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC2ExpressShipping::test_express_shipping_costs_9_99_on_small_order": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC3InvalidShipping::test_invalid_shipping_method_raises_cartError": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::TestS5AC3InvalidShipping::test_unknown_shipping_method_raises_cartError": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_coupon_wins_on_equal_percent": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M020",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M085",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_empty_when_no_discounts": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M046",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_fixed_coupon_after_loyalty": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_larger_percent_discount_wins": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M086"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_loyalty_for_gold_tier": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_loyalty_larger_than_coupon_percent": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_no_loyalty_for_standard_tier": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_discounts_in_appearance_order": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M004",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M046",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_then_loyalty_then_fixed": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M041",
+      "M043",
+      "M048",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M072",
+      "M073",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_comprehensive_pricing_with_all_discounts": {
+     "ac": [
+      "S6-AC1",
+      "S6-AC2",
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M025",
+      "M026",
+      "M027",
+      "M028",
+      "M033",
+      "M035",
+      "M038",
+      "M042",
+      "M043",
+      "M045",
+      "M046",
+      "M047",
+      "M048",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M059",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M074",
+      "M080",
+      "M081",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_discount_rounded_down_below_half_cent": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_discount_rounded_up_at_half_cent": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_free_shipping_above_50_threshold": {
+     "ac": [
+      "S6-AC1",
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_free_shipping_at_50_threshold": {
+     "ac": [
+      "S6-AC1",
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M060",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_paid_shipping_below_50_threshold": {
+     "ac": [
+      "S6-AC1",
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_percent_coupon_replaces_loyalty": {
+     "ac": [
+      "S6-AC1",
+      "S6-AC2",
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_subtotal_is_rounded": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_tax_calculation_excludes_discount": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('39.90') == Decimal('40.95') +  where Decimal('39.90') = Quote(subtotal=Decimal('200.00'), discount=Decimal('10.00'), shipping=Decimal('0.00'), tax=Decimal('39.90'), total=Decimal('229.90'), applied=('loyalty',)).tax",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_tax_is_21_percent_of_goods_with_shipping": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('21.00') == Decimal('22.05') +  where Decimal('21.00') = Quote(subtotal=Decimal('100.00'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('21.00'), total=Decimal('121.00'), applied=()).tax",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_tax_rounded_down_below_half_cent": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('21.00') == Decimal('22.05') +  where Decimal('21.00') = Quote(subtotal=Decimal('100.00'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('21.00'), total=Decimal('121.00'), applied=()).tax",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_tax_rounded_up_at_half_cent": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('21.05') == Decimal('22.10') +  where Decimal('21.05') = Quote(subtotal=Decimal('100.24'), discount=Decimal('0.00'), shipping=Decimal('0.00'), tax=Decimal('21.05'), total=Decimal('121.29'), applied=()).tax",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_tax_with_fixed_coupon": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('18.90') == Decimal('19.95') +  where Decimal('18.90') = Quote(subtotal=Decimal('100.00'), discount=Decimal('10.00'), shipping=Decimal('0.00'), tax=Decimal('18.90'), total=Decimal('108.90'), applied=('loyalty', 'coupon:FIXED5')).tax",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_total_formula_exact": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M011",
+      "M017",
+      "M019",
+      "M022",
+      "M027",
+      "M028",
+      "M033",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_above_10_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_above_50_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_at_10_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_at_49_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_at_50_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_volume_discount_threshold_at_9_units": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    }
+   },
+   "unknown_tags": []
+  },
+  "sample-2": {
+   "broken": {},
+   "coverage": {
+    "S1-AC1": {
+     "claimed": 9,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S1-AC2": {
+     "claimed": 7,
+     "killed": 8,
+     "mutants": 8,
+     "verified": true
+    },
+    "S1-AC3": {
+     "claimed": 2,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S1-AC4": {
+     "claimed": 6,
+     "killed": 5,
+     "mutants": 5,
+     "verified": true
+    },
+    "S1-AC5": {
+     "claimed": 4,
+     "killed": 1,
+     "mutants": 1,
+     "verified": true
+    },
+    "S2-AC1": {
+     "claimed": 9,
+     "killed": 8,
+     "mutants": 8,
+     "verified": true
+    },
+    "S2-AC2": {
+     "claimed": 6,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S2-AC3": {
+     "claimed": 4,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S3-AC1": {
+     "claimed": 3,
+     "killed": 6,
+     "mutants": 7,
+     "verified": true
+    },
+    "S3-AC2": {
+     "claimed": 3,
+     "killed": 7,
+     "mutants": 7,
+     "verified": true
+    },
+    "S3-AC3": {
+     "claimed": 4,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S3-AC4": {
+     "claimed": 5,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S3-AC5": {
+     "claimed": 4,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S4-AC1": {
+     "claimed": 6,
+     "killed": 3,
+     "mutants": 4,
+     "verified": true
+    },
+    "S4-AC2": {
+     "claimed": 12,
+     "killed": 2,
+     "mutants": 3,
+     "verified": true
+    },
+    "S5-AC1": {
+     "claimed": 8,
+     "killed": 3,
+     "mutants": 3,
+     "verified": true
+    },
+    "S5-AC2": {
+     "claimed": 3,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S5-AC3": {
+     "claimed": 4,
+     "killed": 2,
+     "mutants": 2,
+     "verified": true
+    },
+    "S6-AC1": {
+     "claimed": 6,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    },
+    "S6-AC2": {
+     "claimed": 8,
+     "killed": 3,
+     "mutants": 4,
+     "verified": true
+    },
+    "S6-AC3": {
+     "claimed": 13,
+     "killed": 4,
+     "mutants": 4,
+     "verified": true
+    }
+   },
+   "files": {
+    "test_s1.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s2.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s3.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s4.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s5.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    },
+    "test_s6.py": {
+     "runnable": true,
+     "syntax_error": null,
+     "unsafe": []
+    }
+   },
+   "inert": [
+    "tests/test_s1.py::test_quantity_100_raises_error"
+   ],
+   "no_assertion": [],
+   "per_story": {
+    "S1": {
+     "criteria": 5,
+     "criteria_verified": 5,
+     "mutation_score": 1.0,
+     "tests": 28,
+     "valid": 28
+    },
+    "S2": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 0.9231,
+     "tests": 16,
+     "valid": 15
+    },
+    "S3": {
+     "criteria": 5,
+     "criteria_verified": 5,
+     "mutation_score": 0.875,
+     "tests": 19,
+     "valid": 19
+    },
+    "S4": {
+     "criteria": 2,
+     "criteria_verified": 2,
+     "mutation_score": 0.7143,
+     "tests": 19,
+     "valid": 18
+    },
+    "S5": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 1.0,
+     "tests": 15,
+     "valid": 15
+    },
+    "S6": {
+     "criteria": 3,
+     "criteria_verified": 3,
+     "mutation_score": 0.9167,
+     "tests": 28,
+     "valid": 27
+    }
+   },
+   "redundant": [
+    "tests/test_s1.py::test_empty_cart_ignores_coupon",
+    "tests/test_s1.py::test_empty_cart_ignores_loyalty_tier",
+    "tests/test_s1.py::test_known_sku_valid",
+    "tests/test_s1.py::test_merge_two_lines_same_sku",
+    "tests/test_s1.py::test_multiple_lines_summed",
+    "tests/test_s1.py::test_quantity_zero_raises_error",
+    "tests/test_s1.py::test_single_line_basic_pricing",
+    "tests/test_s1.py::test_volume_discount_10_percent_at_10_units",
+    "tests/test_s1.py::test_volume_discount_10_percent_at_49_units",
+    "tests/test_s1.py::test_volume_discount_below_10_units",
+    "tests/test_s2.py::test_no_discount_books_10_units",
+    "tests/test_s2.py::test_no_discount_books_50_units",
+    "tests/test_s2.py::test_volume_discount_10_units_exact",
+    "tests/test_s2.py::test_volume_discount_11_units",
+    "tests/test_s2.py::test_volume_discount_49_units_gets_10_percent",
+    "tests/test_s2.py::test_volume_discount_50_units_exact",
+    "tests/test_s2.py::test_volume_discount_9_units_no_discount",
+    "tests/test_s2.py::test_volume_discount_merged_lines_10_units",
+    "tests/test_s2.py::test_volume_discount_merged_lines_50_units",
+    "tests/test_s2.py::test_volume_discount_merged_lines_9_units",
+    "tests/test_s2.py::test_volume_discount_with_fractional_unit_price",
+    "tests/test_s3.py::test_coupon_one_day_after_expiry_raises_error",
+    "tests/test_s3.py::test_coupon_other_invalid_kinds_raise_error",
+    "tests/test_s3.py::test_coupon_uppercase_fixed_raises_error",
+    "tests/test_s3.py::test_coupon_uppercase_percent_raises_error",
+    "tests/test_s3.py::test_percent_coupon_50_percent_off",
+    "tests/test_s3.py::test_percent_coupon_decimal_amount_with_rounding",
+    "tests/test_s4.py::test_fixed_coupon_with_multiple_items_and_loyalty",
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_coupon_4_percent",
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_percent_coupon_3_percent",
+    "tests/test_s4.py::test_loyalty_discount_on_multiple_items",
+    "tests/test_s4.py::test_loyalty_vs_coupon_comparison_on_different_subtotal",
+    "tests/test_s4.py::test_loyalty_with_larger_subtotal_rounding",
+    "tests/test_s4.py::test_percent_coupon_8_percent_wins_over_loyalty_5_percent",
+    "tests/test_s5.py::test_express_shipping_never_free_on_large_order",
+    "tests/test_s5.py::test_invalid_shipping_method_ground_raises_error",
+    "tests/test_s5.py::test_invalid_shipping_method_overnight_raises_error",
+    "tests/test_s5.py::test_invalid_shipping_method_typo_raises_error",
+    "tests/test_s5.py::test_standard_shipping_empty_cart_no_charge",
+    "tests/test_s6.py::test_applied_percent_coupon_before_fixed",
+    "tests/test_s6.py::test_applied_volume_single_product",
+    "tests/test_s6.py::test_discount_rounded_half_up",
+    "tests/test_s6.py::test_subtotal_rounded_half_down",
+    "tests/test_s6.py::test_subtotal_rounded_half_up",
+    "tests/test_s6.py::test_vat_includes_shipping_in_base"
+   ],
+   "summary": {
+    "broken_files": 0,
+    "criteria": 21,
+    "criteria_claimed": 21,
+    "criteria_verified": 21,
+    "flaky": 0,
+    "inert": 1,
+    "invalid": 3,
+    "killed": 78,
+    "mutants": 82,
+    "mutation_score": 0.9512,
+    "no_assertion": 0,
+    "redundant": 45,
+    "skipped": 0,
+    "tag_unconfirmed": 20,
+    "tests": 125,
+    "unsafe_files": 0,
+    "valid": 122,
+    "validity": 0.976
+   },
+   "survivors": [
+    "M016",
+    "M050",
+    "M053",
+    "M076"
+   ],
+   "tag_unconfirmed": [
+    "tests/test_s1.py::test_empty_cart_applied_empty",
+    "tests/test_s2.py::test_volume_discount_49_units_gets_10_percent",
+    "tests/test_s3.py::test_coupon_subtotal_above_minimum_applies",
+    "tests/test_s4.py::test_applied_shows_loyalty_before_fixed_coupon",
+    "tests/test_s4.py::test_coupon_6_percent_wins_over_loyalty_5_percent",
+    "tests/test_s4.py::test_fixed_coupon_capped_by_remaining_balance",
+    "tests/test_s4.py::test_fixed_coupon_exactly_equals_remaining_balance",
+    "tests/test_s4.py::test_fixed_coupon_stacks_with_loyalty_discount",
+    "tests/test_s4.py::test_fixed_coupon_with_multiple_items_and_loyalty",
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_coupon_1_percent",
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_coupon_4_percent",
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_percent_coupon_3_percent",
+    "tests/test_s4.py::test_loyalty_vs_coupon_comparison_on_different_subtotal",
+    "tests/test_s4.py::test_percent_coupon_8_percent_wins_over_loyalty_5_percent",
+    "tests/test_s5.py::test_standard_shipping_empty_cart_no_charge",
+    "tests/test_s5.py::test_standard_shipping_free_above_50",
+    "tests/test_s5.py::test_standard_shipping_free_with_loyalty_discount_reaching_50",
+    "tests/test_s5.py::test_standard_shipping_free_with_volume_discount_reaching_50",
+    "tests/test_s6.py::test_applied_empty_no_discounts",
+    "tests/test_s6.py::test_applied_no_standard_customer_loyalty"
+   ],
+   "tests": {
+    "tests/test_s1.py::test_books_category_no_volume_discount": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_decimal_unit_prices": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_empty_cart_all_amounts_zero": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_empty_cart_applied_empty": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_empty_cart_ignores_coupon": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_empty_cart_ignores_loyalty_tier": {
+     "ac": [
+      "S1-AC5"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_known_sku_valid": {
+     "ac": [
+      "S1-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_activates_volume_discount": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_below_volume_threshold": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_quantity_100_raises_error": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M035",
+      "M037",
+      "M071"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_quantity_99_valid": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M036",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_three_lines_same_sku": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_merge_two_lines_same_sku": {
+     "ac": [
+      "S1-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_multiple_lines_summed": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_multiple_products_different_discounts": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_100_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_1_valid": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_99_valid": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M036",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M070",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_fraction_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M029",
+      "M030",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_negative_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M031",
+      "M032"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_true_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M029",
+      "M030"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_quantity_zero_raises_error": {
+     "ac": [
+      "S1-AC2"
+     ],
+     "kills": [
+      "M031",
+      "M032"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_single_line_basic_pricing": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_unknown_sku_raises_error": {
+     "ac": [
+      "S1-AC3"
+     ],
+     "kills": [
+      "M033",
+      "M034"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_volume_discount_10_percent_at_10_units": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_volume_discount_10_percent_at_49_units": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_volume_discount_15_percent_at_50_units": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s1.py::test_volume_discount_below_10_units": {
+     "ac": [
+      "S1-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_general_gets_discount_books_dont": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC3"
+     ],
+     "kills": [
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_multiple_products_different_discount_tiers": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_no_discount_books_10_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_no_discount_books_50_units": {
+     "ac": [
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_10_units_exact": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_11_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_49_units_gets_10_percent": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_50_units_exact": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_51_units": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_9_units_no_discount": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_complex_mixed_cart": {
+     "ac": [
+      "S2-AC1",
+      "S2-AC2",
+      "S2-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M038",
+      "M039",
+      "M040",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_merged_lines_10_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_merged_lines_50_units": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [
+      "M001",
+      "M002",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M039",
+      "M040",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_merged_lines_9_units": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M045",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_with_fractional_unit_price": {
+     "ac": [
+      "S2-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s2.py::test_volume_discount_with_rounding_small_amounts": {
+     "ac": [
+      "S2-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('0.43') == Decimal('0.42') +  where Decimal('0.43') = Quote(subtotal=Decimal('0.43'), discount=Decimal('0.00'), shipping=Decimal('4.99'), tax=Decimal('1.14'), total=Decimal('6.56'), applied=('volume:ITEM',)).subtotal",
+     "status": "invalid"
+    },
+    "tests/test_s3.py::test_coupon_before_expiry_date_applies": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_expired_raises_error": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M008",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_invalid_kind_raises_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_on_expiry_date_applies": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M044",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_one_cent_below_minimum_raises_error": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M007",
+      "M010",
+      "M011",
+      "M013",
+      "M014",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_one_day_after_expiry_raises_error": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M008",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_other_invalid_kinds_raise_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_subtotal_above_minimum_applies": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M075",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_subtotal_below_minimum_raises_error": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M007",
+      "M010",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M043",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_subtotal_equal_to_minimum_applies": {
+     "ac": [
+      "S3-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M009",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M045",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M075",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_uppercase_fixed_raises_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_uppercase_percent_raises_error": {
+     "ac": [
+      "S3-AC5"
+     ],
+     "kills": [
+      "M005",
+      "M006",
+      "M011",
+      "M013",
+      "M017",
+      "M018",
+      "M033",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_coupon_without_expiry_never_expires": {
+     "ac": [
+      "S3-AC4"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_euros_off": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_exact_subtotal": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_fixed_coupon_never_below_zero": {
+     "ac": [
+      "S3-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_10_percent_off": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_50_percent_off": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s3.py::test_percent_coupon_decimal_amount_with_rounding": {
+     "ac": [
+      "S3-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_applied_shows_loyalty_before_fixed_coupon": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_coupon_6_percent_wins_over_loyalty_5_percent": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_capped_by_remaining_balance": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M077",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_exactly_equals_remaining_balance": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_stacks_with_loyalty_discount": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_fixed_coupon_with_multiple_items_and_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_gold_tier_gets_5_percent_loyalty_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_coupon_1_percent": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_coupon_4_percent": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_5_percent_wins_over_percent_coupon_3_percent": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_applies_after_volume_discount": {
+     "ac": [
+      "S4-AC1",
+      "S4-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('4.50') == Decimal('14.50') +  where Decimal('4.50') = Quote(subtotal=Decimal('90.00'), discount=Decimal('4.50'), shipping=Decimal('0.00'), tax=Decimal('17.96'), total=Decimal('103.46'), applied=('volume:PROD-1', 'loyalty')).discount",
+     "status": "invalid"
+    },
+    "tests/test_s4.py::test_loyalty_discount_on_multiple_items": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_discount_rounded_half_up": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_vs_coupon_comparison_on_different_subtotal": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_loyalty_with_larger_subtotal_rounding": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_percent_coupon_8_percent_wins_over_loyalty_5_percent": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_percent_coupon_wins_when_equal_to_loyalty": {
+     "ac": [
+      "S4-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M020",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M051",
+      "M052",
+      "M055",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M075",
+      "M082",
+      "M084",
+      "M085",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_standard_tier_gets_no_loyalty_discount": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s4.py::test_standard_tier_receives_no_loyalty_with_fixed_coupon": {
+     "ac": [
+      "S4-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M020",
+      "M023",
+      "M024",
+      "M033",
+      "M035",
+      "M043",
+      "M046",
+      "M049",
+      "M052",
+      "M054",
+      "M056",
+      "M057",
+      "M058",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_express_shipping_costs_9_99_small_order": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_express_shipping_never_free_on_large_order": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M059",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_express_shipping_never_free_with_discounts": {
+     "ac": [
+      "S5-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M025",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M059",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M080",
+      "M081",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_invalid_shipping_method_empty_string_raises_error": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_invalid_shipping_method_ground_raises_error": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_invalid_shipping_method_overnight_raises_error": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_invalid_shipping_method_typo_raises_error": {
+     "ac": [
+      "S5-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M012"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_4_99_when_goods_below_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_charged_when_after_coupon_below_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M024",
+      "M025",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_empty_cart_no_charge": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M011",
+      "M013"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_free_above_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_free_at_exactly_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M060",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_free_with_coupon_reaching_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M024",
+      "M025",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M060",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M078",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_free_with_loyalty_discount_reaching_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M025",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M081",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s5.py::test_standard_shipping_free_with_volume_discount_reaching_50": {
+     "ac": [
+      "S5-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M042",
+      "M045",
+      "M047",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M081",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_empty_no_discounts": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M046",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_fixed_coupon": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M023",
+      "M033",
+      "M035",
+      "M043",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_full_order_with_all_discounts": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M041",
+      "M043",
+      "M048",
+      "M049",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M072",
+      "M073"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_loyalty": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_loyalty_before_fixed_coupon": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M019",
+      "M021",
+      "M023",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_no_standard_customer_loyalty": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M011",
+      "M017",
+      "M019",
+      "M020",
+      "M022",
+      "M033",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_percent_coupon": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_percent_coupon_before_fixed": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_before_loyalty": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M048",
+      "M049",
+      "M051",
+      "M056",
+      "M067",
+      "M068",
+      "M072",
+      "M073"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_before_percent_coupon": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M015",
+      "M033",
+      "M035",
+      "M041",
+      "M043",
+      "M048",
+      "M051",
+      "M052",
+      "M055",
+      "M067",
+      "M068",
+      "M072",
+      "M073"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_multiple_products_order": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_no_discount_omitted": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M004",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M046",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M072",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_applied_volume_single_product": {
+     "ac": [
+      "S6-AC3"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M041",
+      "M048",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M072"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_discount_rounded_half_up": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_formula_with_multiple_roundings": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M028",
+      "M033",
+      "M035",
+      "M045",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M062",
+      "M067",
+      "M068",
+      "M079",
+      "M080",
+      "M081",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_rounding_near_boundary": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M079",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_rounding_preserves_formula_complex": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [],
+     "message": "AssertionError: assert Decimal('152.76') == Decimal('144.14') +  where Decimal('152.76') = Quote(subtotal=Decimal('135.00'), discount=Decimal('8.75'), shipping=Decimal('0.00'), tax=Decimal('26.51'), total=Decimal('152.76'), applied=('volume:ITEM', 'loyalty', 'coupon:OFF2')).total",
+     "status": "invalid"
+    },
+    "tests/test_s6.py::test_stacked_discounts_rounded": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M024",
+      "M025",
+      "M026",
+      "M028",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M056",
+      "M057",
+      "M058",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M081",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_subtotal_rounded_half_down": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_subtotal_rounded_half_up": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M033",
+      "M035",
+      "M051",
+      "M054",
+      "M056",
+      "M067",
+      "M068",
+      "M069",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_tax_rounded_half_up": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_total_equals_formula": {
+     "ac": [
+      "S6-AC2"
+     ],
+     "kills": [
+      "M005",
+      "M007",
+      "M011",
+      "M015",
+      "M025",
+      "M027",
+      "M028",
+      "M033",
+      "M035",
+      "M043",
+      "M062",
+      "M067",
+      "M068",
+      "M069",
+      "M082"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_after_fixed_coupon": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M019",
+      "M024",
+      "M025",
+      "M026",
+      "M033",
+      "M035",
+      "M043",
+      "M049",
+      "M052",
+      "M056",
+      "M057",
+      "M058",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_after_loyalty_discount": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M025",
+      "M026",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M074",
+      "M081",
+      "M082",
+      "M084",
+      "M085"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_after_percent_coupon": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M005",
+      "M007",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M022",
+      "M025",
+      "M026",
+      "M033",
+      "M035",
+      "M043",
+      "M051",
+      "M052",
+      "M057",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M075",
+      "M081",
+      "M082",
+      "M084",
+      "M086",
+      "M087"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_after_volume_discount": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M001",
+      "M003",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M041",
+      "M042",
+      "M045",
+      "M047",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M072",
+      "M073",
+      "M081",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_basic_no_discounts_no_shipping": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    },
+    "tests/test_s6.py::test_vat_includes_shipping_in_base": {
+     "ac": [
+      "S6-AC1"
+     ],
+     "kills": [
+      "M004",
+      "M011",
+      "M013",
+      "M014",
+      "M015",
+      "M017",
+      "M019",
+      "M022",
+      "M026",
+      "M027",
+      "M033",
+      "M035",
+      "M049",
+      "M051",
+      "M054",
+      "M056",
+      "M061",
+      "M067",
+      "M068",
+      "M069",
+      "M080",
+      "M081",
+      "M082",
+      "M084"
+     ],
+     "message": "",
+     "status": "valid"
+    }
+   },
+   "unknown_tags": []
+  }
+ }
+}

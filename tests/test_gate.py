@@ -28,4 +28,4 @@ def test_a_drop_in_one_story_fails_even_when_the_total_holds():
 
 
 def test_floors_apply_without_a_baseline():
-    assert gate(result("new", 0.85, 0.80, 0.9), None, CONFIG) == ["validity is 0.85, below the floor of 0.9"]
+    assert gate(result("new", 0.85, 0.80, 0.9), None, CONFIG) == ["validity is 0.850, below the floor of 0.9"]

@@ -1,0 +1,82 @@
+{
+  "backend": "claude-code",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt": "v1",
+  "prompt_sha": "f85a854be251",
+  "created": "2026-10-03",
+  "samples": 2,
+  "responses": {
+    "sample-1/test_s1.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 113.2,
+      "input_tokens": 2686,
+      "output_tokens": 19994
+    },
+    "sample-1/test_s2.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 100.5,
+      "input_tokens": 2686,
+      "output_tokens": 19164
+    },
+    "sample-1/test_s3.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 113.9,
+      "input_tokens": 2680,
+      "output_tokens": 19929
+    },
+    "sample-1/test_s4.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 86.8,
+      "input_tokens": 2682,
+      "output_tokens": 15034
+    },
+    "sample-1/test_s5.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 92.8,
+      "input_tokens": 2682,
+      "output_tokens": 16488
+    },
+    "sample-1/test_s6.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 122.6,
+      "input_tokens": 2680,
+      "output_tokens": 22254
+    },
+    "sample-2/test_s1.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 141.1,
+      "input_tokens": 2684,
+      "output_tokens": 25725
+    },
+    "sample-2/test_s2.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 92.7,
+      "input_tokens": 2680,
+      "output_tokens": 16729
+    },
+    "sample-2/test_s3.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 74.6,
+      "input_tokens": 2680,
+      "output_tokens": 13196
+    },
+    "sample-2/test_s4.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 85.8,
+      "input_tokens": 2682,
+      "output_tokens": 14882
+    },
+    "sample-2/test_s5.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 71.4,
+      "input_tokens": 2684,
+      "output_tokens": 13249
+    },
+    "sample-2/test_s6.py": {
+      "served_model": "claude-haiku-4-5-20251001",
+      "seconds": 85.6,
+      "input_tokens": 2682,
+      "output_tokens": 16032
+    }
+  }
+}

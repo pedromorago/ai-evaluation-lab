@@ -1,0 +1,82 @@
+{
+  "backend": "claude-code",
+  "model": "claude-sonnet-5-5",
+  "prompt": "v1",
+  "prompt_sha": "f85a854be251",
+  "created": "2026-10-03",
+  "samples": 2,
+  "responses": {
+    "sample-1/test_s1.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 27.5,
+      "input_tokens": 3508,
+      "output_tokens": 4209
+    },
+    "sample-1/test_s2.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 23.6,
+      "input_tokens": 3508,
+      "output_tokens": 3428
+    },
+    "sample-1/test_s3.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 28.7,
+      "input_tokens": 3512,
+      "output_tokens": 4501
+    },
+    "sample-1/test_s4.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 30.5,
+      "input_tokens": 3508,
+      "output_tokens": 4897
+    },
+    "sample-1/test_s5.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 33.9,
+      "input_tokens": 3514,
+      "output_tokens": 5530
+    },
+    "sample-1/test_s6.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 62.3,
+      "input_tokens": 3512,
+      "output_tokens": 9894
+    },
+    "sample-2/test_s1.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 28.1,
+      "input_tokens": 3510,
+      "output_tokens": 4515
+    },
+    "sample-2/test_s2.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 23.6,
+      "input_tokens": 3512,
+      "output_tokens": 3517
+    },
+    "sample-2/test_s3.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 32.8,
+      "input_tokens": 3514,
+      "output_tokens": 5339
+    },
+    "sample-2/test_s4.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 29.2,
+      "input_tokens": 3512,
+      "output_tokens": 4697
+    },
+    "sample-2/test_s5.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 29.9,
+      "input_tokens": 3510,
+      "output_tokens": 4621
+    },
+    "sample-2/test_s6.py": {
+      "served_model": "claude-sonnet-5-5",
+      "seconds": 40.2,
+      "input_tokens": 3510,
+      "output_tokens": 6518
+    }
+  }
+}

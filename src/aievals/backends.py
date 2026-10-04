@@ -49,7 +49,10 @@ class ClaudeCode:
         if data.get("is_error"):
             raise RuntimeError(f"claude returned an error: {data.get('result')}")
         usage = data.get("usage", {})
-        served = list(data.get("modelUsage", {})) or [self.model]
+        # Claude Code also makes small side calls on another model, so the model that
+        # answered is the one that wrote the most.
+        by_model = data.get("modelUsage", {})
+        served = sorted(by_model, key=lambda m: by_model[m].get("outputTokens", 0), reverse=True) or [self.model]
         return Completion(
             text=data["result"],
             model=served[0],

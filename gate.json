@@ -1,0 +1,5 @@
+{
+  "min": {"validity": 0.97, "mutation_score": 0.95, "criteria_verified": 1.0},
+  "max_drop": {"validity": 0.02, "mutation_score": 0.02},
+  "max_story_drop": 0.1
+}

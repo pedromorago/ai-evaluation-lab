@@ -50,7 +50,7 @@ def gate(candidate: dict, baseline: dict | None, config: dict) -> list[str]:
         if metric == "criteria_verified":
             value = value / agg["criteria"]["mean"]
         if value < floor:
-            problems.append(f"{metric} is {value:.2f}, below the floor of {floor}")
+            problems.append(f"{metric} is {value:.3f}, below the floor of {floor}")
     for metric, ceiling in config.get("max", {}).items():
         if agg[metric]["mean"] > ceiling:
             problems.append(f"{metric} is {agg[metric]['mean']}, above the ceiling of {ceiling}")

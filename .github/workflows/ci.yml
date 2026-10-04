@@ -31,12 +31,12 @@ jobs:
           git diff --stat --exit-code -- runs
           { echo "## Recorded runs"; echo; aievals report runs/*/; } >> "$GITHUB_STEP_SUMMARY"
       - name: Regression gate
-        run: aievals gate runs/sonnet-5.5-v2 --baseline runs/haiku-4.5-v2
+        run: aievals gate runs/sonnet-5.5-v2 --baseline runs/sonnet-5.5-v1
       - name: Regression gate demo (expected to fail)
         run: |
           set +e
-          aievals gate runs/haiku-4.5-v1 --baseline runs/haiku-4.5-v2 | tee gate.txt
+          aievals gate runs/haiku-4.5-v2 --baseline runs/sonnet-5.5-v1 | tee gate.txt
           code=${PIPESTATUS[0]}
           set -e
           test "$code" -eq 1
-          { echo "## Gate demo: the plain prompt against the test-design prompt (expected to fail)"; echo; echo '```'; cat gate.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          { echo "## Gate demo: switching to the smaller model (expected to fail)"; echo; echo '```'; cat gate.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
