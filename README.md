@@ -39,11 +39,11 @@ Mutants caught by each story's own test file:
 
 ### What the numbers show
 
-- **Sonnet's invalid tests are arithmetic slips.** Every step is right in a comment and the last addition is wrong: `total = 0.00 + 4.99 + 1.05 = 5.04`. Haiku's are mostly rules applied in the wrong place: it forgets the volume discount when it tests 99 units, charges VAT on shipping that is free in that cart, or counts the volume discount as part of `discount`, which the API says it isn't.
-- **An invalid test can hide a gap.** In one Haiku suite, the only tests at the 99-unit limit were the ones with the wrong expected total. Being invalid, they don't count, so nothing checked the limit, and the mutant that rejects 99 units survived. The suite looked like it covered S1-AC2.
+- **Sonnet's invalid tests are arithmetic slips.** In six of the seven, every step is right in a comment and the last addition is wrong: `total = 0.00 + 4.99 + 1.05 = 5.04`. The seventh charges VAT on the wrong amount. Haiku's are mostly rules applied in the wrong place: it forgets the volume discount when it tests 99 units, charges VAT on shipping that is free in that cart, or counts the volume discount as part of `discount`, which the API says it isn't.
+- **An invalid test can hide a gap.** In two Haiku suites, the only tests at the 99-unit limit were the ones with the wrong expected total. Being invalid, they don't count, so nothing checked the limit, and the mutant that rejects 99 units survived. Both suites looked like they covered S1-AC2.
 - **The test-design prompt helped the smaller model a little and the larger one not at all.** Haiku caught 93% with v1 and 95% with v2. Sonnet caught 99% either way, and one of its v2 samples had five invalid tests, all the same slip (4.99 + 1.05 written as 5.04).
 - **Rounding order is the blind spot.** No suite from any model catches M016, which skips rounding the subtotal before the coupon minimum is checked. It only shows when the unrounded subtotal ends in half a cent and the minimum sits exactly at the rounded value. The reference suite has that test; no model wrote it.
-- **About a third of every suite is redundant.** Between 34 and 56 tests per suite catch exactly the same mutants as another test in it. Some of that is a parametrized boundary; most of it is the same check with different numbers.
+- **About a third of every suite is redundant.** Between 25 and 62 tests per suite (34 to 56 on average per run) catch exactly the same mutants as another test in it. Some of that is a parametrized boundary; most of it is the same check with different numbers.
 - **The smaller model was the slower one.** Haiku's calls added up to 1,181 and 1,595 seconds for its two runs, with 213k and 276k output tokens; Sonnet's to 390 and 531 seconds, with 62k and 88k.
 
 ### The regression gate
@@ -72,11 +72,11 @@ Every rule in `pricing.py` carries the criterion it implements in a trailing com
 
 `src/aievals/mutate.py` walks the syntax tree and makes one change at a time: a comparison (`<` to `<=`), an operator, a constant one unit off (`Decimal("50.00")` to `Decimal("50.01")`), `min` for `max`, the rounding mode, a dropped rounding, a deleted `raise` or call. 87 mutants, numbered in a stable order.
 
-The reference suite in `reference/`, written by hand from the same stories, catches 82 of them. The five it doesn't can't be caught by any test, and `tests/test_reference.py` pins them: four drop a rounding that is applied to amounts already in whole cents, and one lets a quantity of 100 through a check that a later check rejects anyway. The mutation score only counts the 82.
+The reference suite in `reference/`, written by hand from the same stories, catches 82 of them. The five it doesn't can't be caught by any test with amounts in whole cents, and `tests/test_reference.py` pins them: four drop a rounding that is applied to amounts already in whole cents, and one lets a quantity of 100 through a check that a later check rejects anyway. The mutation score only counts the 82.
 
 ### Running untrusted code
 
-Generated tests are code nobody has read. Before anything runs them, `static.py` rejects a file that imports anything beyond pytest, `decimal`, `datetime` and `checkout`, or calls `open`, `eval`, `exec` and the like. The rest run in a throwaway directory, in a separate process, against a fresh copy of the package with the mutant swapped in, under a timeout. A small pytest plugin records each test's outcome and its criterion tags.
+Generated tests are code nobody has read. Before anything runs them, `static.py` rejects a file that imports anything beyond `checkout`, pytest and a short list of standard modules (`decimal`, `datetime`, `math` and the like), or calls `open`, `eval`, `exec` and the like. The rest run in a throwaway directory, in a separate process, against a fresh copy of the package with the mutant swapped in, under a timeout. A small pytest plugin records each test's outcome and its criterion tags.
 
 ### Seeded bugs in the evaluator
 
